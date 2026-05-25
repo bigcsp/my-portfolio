@@ -3,55 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects</title>
+  <title>Projects — English Daveheed</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navigation — same on every page -->
+  <canvas id="particles-canvas"></canvas>
+
   <nav class="navbar">
-    <div class="nav-logo">ENGLISH_DAVEHEED</div>
+    <div class="nav-logo">DAVEHEED</div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="projects.html" class="active">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <button id="navToggle" class="nav-toggle">☰</button>
   </nav>
 
-  <!-- Projects Section -->
   <section class="projects">
-    <h1 class="section-title">My Projects</h1>
-    <p class="section-sub">Here are some of the things I have built so far</p>
+
+    <h1 class="section-title" style="margin-top:2rem">My Projects</h1>
+    <p class="section-sub">Things I have built from scratch — every line written by me</p>
 
     <div class="projects-grid">
 
-      <!-- Project 1 — your real project! -->
+      <!-- Project 1 — your real live project -->
       <div class="project-card">
-        <div class="project-icon">👤</div>
+        <span class="project-icon">👤</span>
         <h2>Personal Profile Card</h2>
-        <p>A clean professional profile card built with HTML, CSS and JavaScript. Features a dark mode toggle and interactive button.</p>
-        <a href="https://bigcsp.github.io/my-profile/" class="btn-primary" target="_blank">View project</a>
+        <p>A clean dark mode profile card built with HTML, CSS and JavaScript. Features a live dark mode toggle, interactive button and smooth animations.</p>
+        <a href="https://bigcsp.github.io/my-profile/" target="_blank" class="btn-primary" style="font-size:13px;padding:9px 20px;display:inline-block;margin-top:auto">View live ↗</a>
       </div>
 
       <!-- Project 2 -->
       <div class="project-card">
-        <div class="project-icon">📝</div>
-        <h2>Coming Soon</h2>
-        <p>My next project is in progress. Check back soon to see what I am building next.</p>
-        <a href="#" class="btn-secondary">In progress</a>
+        <span class="project-icon">🌐</span>
+        <h2>This Portfolio Website</h2>
+        <p>A 3-page personal portfolio with dark neon design, animated particles, typing animation and scroll effects. Built entirely from scratch.</p>
+        <a href="index.html" class="btn-primary" style="font-size:13px;padding:9px 20px;display:inline-block;margin-top:auto">View live ↗</a>
       </div>
 
-      <!-- Project 3 -->
+      <!-- Project 3 — coming soon -->
       <div class="project-card">
-        <div class="project-icon">🚀</div>
-        <h2>Coming Soon</h2>
-        <p>I am always learning and building. More projects will be added here as I grow my skills.</p>
-        <a href="#" class="btn-secondary">In progress</a>
+        <span class="project-icon">🧠</span>
+        <h2>Data Science Project</h2>
+        <p>Coming soon — an election and sports prediction dashboard built with Python, Pandas and machine learning. My biggest project yet.</p>
+        <span class="btn-secondary" style="font-size:13px;padding:9px 20px;display:inline-block;cursor:default;opacity:.7">In progress...</span>
       </div>
 
     </div>
+
   </section>
 
   <script src="script.js"></script>
