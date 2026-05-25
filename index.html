@@ -3,40 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>ENGLISH DAVEHEED — Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navigation -->
+  <canvas id="particles-canvas"></canvas>
+
   <nav class="navbar">
-    <div class="nav-logo">YourName</div>
+    <div class="nav-logo">DAVEHEED</div>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <button id="navToggle" class="nav-toggle">☰</button>
   </nav>
 
-  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
       <p class="hero-greeting">👋 Hello, I'm</p>
-      <h1 class="hero-name">ENGLISH DAVEHEED</h1>
-      <h2 class="hero-title">Aspiring Web Developer</h2>
-      <p class="hero-bio">I build clean, functional websites and I'm just getting started. Based in Lagos, Nigeria.</p>
+      <h1 class="hero-name">English Daveheed</h1>
+      <h2 class="hero-title">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-bio">
+        I build clean, functional websites and I'm just getting started.
+        Based in Lagos, Nigeria. Passionate about data science and web development.
+      </p>
       <div class="hero-buttons">
-        <a href="projects.html" class="btn-primary">See my work</a>
+        <a href="projects.html" class="btn-primary">See my work ✦</a>
         <a href="contact.html" class="btn-secondary">Get in touch</a>
       </div>
     </div>
+    <div class="hero-glow"></div>
   </section>
 
-  <!-- Skills Section -->
   <section class="skills">
     <h2 class="section-title">What I know so far</h2>
+    <p class="section-sub">Skills I have built from scratch — one line of code at a time</p>
     <div class="skills-grid">
       <div class="skill-card">
         <span class="skill-icon">🌐</span>
