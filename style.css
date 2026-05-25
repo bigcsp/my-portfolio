@@ -5,19 +5,21 @@
 }
 
 :root {
-  --bg:        #07070f;
-  --bg2:       #0f0f1a;
-  --bg3:       #16162a;
-  --purple:    #7c3aed;
-  --purple2:   #a855f7;
-  --neon:      #c084fc;
-  --neon-dim:  rgba(192,132,252,0.15);
-  --neon-glow: rgba(192,132,252,0.35);
+ :root {
+  --bg:        #05050c;
+  --bg2:       #0a0a14;
+  --bg3:       #10101e;
+  --purple:    #4a0080;
+  --purple2:   #6b00b3;
+  --neon:      #a855f7;
+  --neon-dim:  rgba(168,85,247,0.12);
+  --neon-glow: rgba(168,85,247,0.3);
   --cyan:      #22d3ee;
   --text:      #f1f5f9;
   --muted:     #94a3b8;
-  --border:    rgba(124,58,237,0.35);
-}
+  --border:    rgba(80,0,140,0.4);
+ }
+
 
 html { scroll-behavior: smooth; }
 
